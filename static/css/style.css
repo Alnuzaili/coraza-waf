@@ -1,0 +1,30 @@
+.log-container {
+    height: 300px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    padding: 15px;
+    font-family: monospace;
+}
+
+.site-card {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.site-card .status {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status.active {
+    background-color: #28a745;
+}
+
+.status.inactive {
+    background-color: #dc3545;
+}
